@@ -1,0 +1,40 @@
+{
+  "name": "lunn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "test": "jest --ci --passWithNoTests",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0",
+    "lucide-react": "^0.475.0",
+    "zod": "^3.23.8",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/jest-dom": "^6.4.0",
+    "@testing-library/user-event": "^14.5.0",
+    "@types/jest": "^29.5.0",
+    "autoprefixer": "^10.4.20",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "ts-jest": "^29.2.0",
+    "typescript": "^5.7.3"
+  }
+}

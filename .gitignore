@@ -1,0 +1,35 @@
+# Next.js
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Environment — never commit these
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
