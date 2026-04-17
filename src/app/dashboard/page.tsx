@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { GitBranch, Activity, ToggleLeft, AlertCircle, ArrowUpRight } from "lucide-react";
 import { getFlagStats } from "@/lib/flags";
-import { formatNumber } from "@/lib/format";
+{ formatNumber } from "@/lib/format";
 
 export const metadata: Metadata = {
   title: "Dashboard",
@@ -12,13 +12,13 @@ export default async function DashboardPage() {
   const stats = await getFlagStats();
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    div className="min-h-screen bg-gray-50">
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-6">
             <Link href="/" className="text-xl font-bold tracking-tight text-gray-900">
               lunn
-            </Link>
+            "/Link>>>
             <nav className="flex items-center gap-1 text-sm">
               <span className="px-3 py-1.5 rounded-lg bg-gray-100 text-gray-900 font-medium">
                 Flags
